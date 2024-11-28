@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* || RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --SLATE-900:#1F314F;
+  --SLATE-500:#68778D;
+  --SLATE-300:#D5E1EF;
+  --WHITE: #FFFFFF;
+
+  --SHADOW:0px 25px 25px 0px #0000;
+
+  /* TYPOGRAPHY */
+  --FF: "Outfit", sans-serif;
+  --TEXT-PRESET-1: bold 1.375rem/120% var(--FF);
+  --TEXT-PRESET-2: normal 0.9375rem/140% var(--FF);
+}
+
+/* || UTILITY CLASSES */
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.responsive-image {
+  display: none;
+}
+
+/* MOBILE FIRST DESIGN */
+/* || GENERAL STYLES */
+html {
+  scroll-behavior: smooth;
+  font-size: 16rem;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  background-color:var(--SLATE-300);
+  overflow-x: hidden;
+  display:grid;
+  place-content: center;    
+
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+
+/*Article Design*/
+.scanner{ 
+  min-height: 499px;
+  max-width:320px; 
+  margin: 9.78rem auto;
+  padding: 1rem 1rem 1.5rem 1rem;
+   background-color: var(--WHITE);
+  gap:1.5rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+  border-radius: 20px;
+  box-shadow: var(--SHADOW);
+   
+}
+.qr-scanner-image{
+ width: 288px;
+ height: 288px;
+ border-radius: 10px;
+ overflow: hidden;
+}
+.qr-scanner-image img{
+  width: 100%;
+  height:100%;
+  object-fit: cover; 
+}
+.qr-code-content{
+  gap:1rem;
+  display: flex;
+  flex-flow: column;
+}
+.header{
+  font-size: var(--TEXT-PRESET-1);
+  color: var(--SLATE-900);
+  max-width: 256px;
+
+}
+.sub-info{
+  font-size: var(--TEXT-PRESET-2);
+  color:var(--SLATE-500);
+  max-width: 256px;
+ 
+}
+@media screen and (min-width: 768px) {
+  /* Qr code scanner article*/
+  .qr-code-scanner {
+    margin: 14.375rem auto;
+  }
+}
