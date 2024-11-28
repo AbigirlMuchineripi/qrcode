@@ -20,7 +20,7 @@ img {
   --SLATE-300:#D5E1EF;
   --WHITE: #FFFFFF;
 
-  --SHADOW:0px 25px 25px 0px #0000;
+  --SHADOW: 0px 25px 25px 0px hsla(0, 0%, 0%, 4.77%);
 
   /* TYPOGRAPHY */
   --FF: "Outfit", sans-serif;
