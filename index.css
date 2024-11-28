@@ -24,8 +24,8 @@ img {
 
   /* TYPOGRAPHY */
   --FF: "Outfit", sans-serif;
-  --TEXT-PRESET-1: bold 1.375rem/120% var(--FF);
-  --TEXT-PRESET-2: normal 0.9375rem/140% var(--FF);
+  --TEXT-PRESET-1: 800 1.375rem/120% var(--FF);
+  --TEXT-PRESET-2: 500 0.9375rem/140% var(--FF);
 }
 
 /* || UTILITY CLASSES */
