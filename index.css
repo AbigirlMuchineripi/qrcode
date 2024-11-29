@@ -106,6 +106,7 @@ h1{
 .header{
   font-size: var(--TEXT-PRESET-1);
   color: var(--SLATE-900);
+  font-weight: 900;
   max-width: 256px;
   text-align: center;
 
