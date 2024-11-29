@@ -108,7 +108,7 @@ h1{
   color: var(--SLATE-900);
   font-weight: 900;
   max-width: 256px;
-  text-align: center;
+  text-align: center; 
 
 }
 .sub-info{
