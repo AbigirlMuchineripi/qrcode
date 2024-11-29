@@ -94,7 +94,7 @@ body {
   align-items:center;
 }
 .header{
-  font-size: var(--TEXT-PRESET-1);
+  font: var(--TEXT-PRESET-1);
   color: var(--SLATE-900);
   font-weight: 900;
   max-width: 256px;
@@ -102,7 +102,7 @@ body {
 
 }
 .sub-info{
-  font-size: var(--TEXT-PRESET-2);
+  font: var(--TEXT-PRESET-2);
   color:var(--SLATE-500);
   max-width: 256px;
   text-align: center;
