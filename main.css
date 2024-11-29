@@ -98,14 +98,14 @@ body {
   color: var(--SLATE-900);
   font-weight: 900;
   max-width: 256px;
-  text-align: center; 
+ 
 
 }
 .sub-info{
   font: var(--TEXT-PRESET-2);
   color:var(--SLATE-500);
   max-width: 256px;
-  text-align: center;
+
   letter-spacing: 0.2px;
  
 }
