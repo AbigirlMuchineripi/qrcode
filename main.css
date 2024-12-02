@@ -96,8 +96,7 @@ body {
 }
 .header{
   font: var(--TEXT-PRESET-1);
-  color: var(--SLATE-900);
-  font-weight: 700;
+  color: var(--SLATE-900); 
   max-width: 256px;
 
 }
